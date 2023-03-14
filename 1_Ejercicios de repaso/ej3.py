@@ -22,6 +22,5 @@ def dibujar_triangulo(ancho, caracter):
             print(caracter, end="")
         print()
 
-print('---------------------------------------')
 
 dibujar_triangulo(ancho, caracter)
