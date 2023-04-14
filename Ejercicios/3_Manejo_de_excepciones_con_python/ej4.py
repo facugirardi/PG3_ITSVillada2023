@@ -8,6 +8,9 @@ def funcion():
 
         except ZeroDivisionError:
             print("No se puede dividir por cero")
+        except ValueError:
+            print("Ingresa un numero")
+        
         finally:
             print("Proceso Ejecutado")
 
