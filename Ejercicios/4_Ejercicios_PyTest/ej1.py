@@ -9,7 +9,6 @@ import re
 
 
 class Password:
-
     def validate_password(password):
         if len(password) < 8:
             return False
@@ -23,8 +22,8 @@ class Password:
             return False
         return True
 
+
 class TestPassword():
-# Pruebas para validate_password
     def test_validate_password_valid(self):
         assert Password.validate_password("Abcdefg1") == True
         assert Password.validate_password("Abc1") == False
